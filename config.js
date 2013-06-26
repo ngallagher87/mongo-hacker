@@ -4,7 +4,10 @@ mongo_hacker_config = {
     enhance_api:    true,      // additonal api extensions
     indent:         2,         // number of spaces for indent
     uuid_type:      'default', // 'java', 'c#', 'python' or 'default'
-
+    // Show user in prompt
+    prompt: {
+	    showName: false
+    },
     // Shell Color Settings
     // [<color>, <bold>, <underline>]
     colors: {
